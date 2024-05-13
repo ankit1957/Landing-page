@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: white;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+#nav{
+    height: 87px;
+    padding: 0 35px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav h1{
+    font-size: 20px;
+    display: flex;
+    align-self: center;
+    text-transform: capitalize;
+}
+
+#nav>i{
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+
+#nav-prt2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+    /* background-color: blue; */
+    /* height: 23px; */
+}
+
+#nav h5{
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+#nav img{
+    height: 50px;
+}
+#line{
+    width: 80px;
+    height: 2px;
+    background-color: red;
+}
+
+#content{
+    height: calc(100% - 87px);
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+#left{
+    height: 100%;
+    width: 36%;
+    /* background-color: red; */
+    padding: 100px 80px;
+}
+
+#center{
+    height: 100%;
+    width: 26%;
+    /* background-color: red; */
+    padding-top: 50px;
+}
+
+#right{
+    height: 80%;
+    width: 36%;
+    /* background-color: red; */
+    padding: 175px 100px;
+}
+
+#left h1{
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+#left h1 span{
+    color: red;
+    font-weight: 500;
+}
+
+#left p{
+    font-size: 14px;
+    width: 80%;
+    margin-bottom: 50px;
+    line-height: 20px;
+}
+
+#left button{
+    background-color: red;
+    padding: 17px 30px;
+    border-radius: 50px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+#left button i{
+    margin-right: 10px;
+}
+
+#center-bg{
+    height: 90%;
+    width: 100%;
+    background-color: blue;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    background-image: url(cocacola\ background.jpg);
+    background-size: 450%;
+    background-position: 30% 40%;
+    filter: blur(2px);
+}
+
+#content>img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 99;
+}
+
+#right-elems{
+    /* background-color: red; */
+    width: 300px;
+}
+
+#elem1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    /* background-color: blue; */
+    border-bottom: 1px solid white;
+    opacity: 0.6;
+}
+
+#elem1 h1{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 10px;
+}
+
+#elem1 i{
+    font-size: 18px;
+}
+
+#elem2 h1{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    opacity: 0.9;
+}
+
+#elem2 p{
+    font-size: 12px;
+    width: 80%;
+    opacity: 0.6;
+}
